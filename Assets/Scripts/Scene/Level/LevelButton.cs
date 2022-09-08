@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
-public class LevelButton : MonoBehaviour
+namespace Game.Scene.Level
 {
-    // Start is called before the first frame update
-    void Start()
+    public class LevelButton : MonoBehaviour
     {
-        
-    }
+        public static UnityAction<int> OnLevelClick;
+        [SerializeField] private TMP_Text _levelNameText;
+        private string _levelName;
+        private int _index;
+        Button _button;
+        private void Start()
+        {
+            _button = GetComponent<Button>();
+            _button.onClick.AddListener(delegate { OnLevelClick?.Invoke(_index); });
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public void SetLevelInfo(string levelName, int index)
+        {
+            _levelName = levelName;
+            _index = index;
+            _levelNameText.text = _levelName + " " + (index + 1);
+        }
     }
 }

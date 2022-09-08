@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class CountDown : MonoBehaviour
+namespace Game.Scene.Gameplay
 {
-    // Start is called before the first frame update
-    void Start()
+    public class CountDown : MonoBehaviour
     {
-        
+        [SerializeField] private Slider _timerValue;
+        private float _timer = 30;
+
+        private void Start()
+        {
+            _timerValue.value = 1f;
+        }
+
+        private void Update()
+        {
+            _timer -= Time.deltaTime;
+            _timerValue.value = _timer / 30;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -1,18 +1,23 @@
+using Game.Global.Database;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Currency : MonoBehaviour
+namespace Game.Scene.Gameplay
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Currency : MonoBehaviour
     {
-        
-    }
+        public int _currentCoin;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private void Start()
+        {
+            _currentCoin = PlayerPrefs.GetInt("PlayerCoin");
+        }
+
+        public void AddCoin(int coin)
+        {
+            _currentCoin += coin;
+            PlayerPrefs.SetInt("PlayerCoin", _currentCoin);
+        }
     }
 }

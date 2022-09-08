@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelData:
     question: Warna dari Laut ?
-    hint: {fileID: 21300000, guid: 46724743e8d635f4387ef7817cd26972, type: 3}
-    answers:
+    hint: {fileID: 21300000, guid: 85efb1a022c2193428ae3200a6c168cb, type: 3}
+    choice:
     - Merah
-    - Biru
     - Hijau
     - Kuning
+    - Biru
     correctAnswer: Biru

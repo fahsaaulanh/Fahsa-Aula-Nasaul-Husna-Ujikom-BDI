@@ -430,7 +430,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207391958}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582523346}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1003,6 +1003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc6521fc95cc5b47aab02b1fde094b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _backButton: {fileID: 1882539288}
 --- !u!1 &1667051467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,7 +1088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1352,6 +1353,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b3cbe3e39fa014e96abe2584b13c2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentData: {fileID: 11400000, guid: 8be96d614e210af4c875ba7088449260, type: 2}
+  _packData: {fileID: 11400000, guid: 9e238b0197525134abfaf3fb5724f2d5, type: 2}
+  levelButtonPrefab: {fileID: 96714415230886612, guid: 89dd989f9a8925949aaa63831982fca5, type: 3}
 --- !u!114 &1971443744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1370,7 +1374,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 1
-  m_Spacing: 0
+  m_Spacing: 20
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0

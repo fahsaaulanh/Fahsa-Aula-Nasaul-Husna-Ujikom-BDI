@@ -15,9 +15,9 @@ MonoBehaviour:
   levelData:
     question: Warna dari Laut ?
     hint: {fileID: 21300000, guid: 46724743e8d635f4387ef7817cd26972, type: 3}
-    answers:
+    choice:
     - Merah
-    - Biru
     - Hijau
     - Kuning
+    - Biru
     correctAnswer: Biru

@@ -9,7 +9,10 @@ namespace Game.Global.Database
     {
         public string currentPack;
         public LevelDatabase currentLevel;
+        public int currentLevelIndex;
 
         public List<string> unlockPack;
+        public List<string> ComplatedPack;
+        public List<string> ComplatedLevel;
     }
 }

@@ -12,7 +12,7 @@ namespace Game.Global.Database
         {
             public string question;
             public Sprite hint;
-            public List<string> answers;
+            public List<string> choice;
             public string correctAnswer;
         }
 

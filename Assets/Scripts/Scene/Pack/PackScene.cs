@@ -16,12 +16,22 @@ namespace Game.Scene.Pack
             _backButton.onClick.AddListener(HomeLauncher);
         }
 
+        private void OnEnable()
+        {
+            PackButton.OnButtonClick += LevelLauncher;
+        }
+
+        private void OnDisable()
+        {
+            PackButton.OnButtonClick -= LevelLauncher;
+        }
+
         private void HomeLauncher()
         {
             SceneManager.LoadScene("Home");
         }
 
-        private void LevelLauncher()
+        private void LevelLauncher(string current)
         {
             SceneManager.LoadScene("Level");
         }

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelData:
     question: Warna dari Matahari ?
-    hint: {fileID: 21300000, guid: 46724743e8d635f4387ef7817cd26972, type: 3}
-    answers:
+    hint: {fileID: 21300000, guid: aed80d58056295346b9220b9603ffacc, type: 3}
+    choice:
     - Merah
     - Biru
     - Hijau

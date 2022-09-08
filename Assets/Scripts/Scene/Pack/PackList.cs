@@ -34,7 +34,7 @@ namespace Game.Scene.Pack
             for (int i = 0; i < _packData.packData.Count; i++)
             {
                var obj = Instantiate(_packButtonPrefab, parent: gameObject.transform);
-                obj.SetPackInfo(_packData.packData[i].packName);
+               obj.SetPackInfo(_packData.packData[i].packName);
             }
         }
     }
