@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f604dd42f6a104bbe7b629bcfcbc10, type: 3}
+  m_Name: PackData
+  m_EditorClassIdentifier: 
+  packData:
+  - packName: Pack A
+    levelData:
+    - {fileID: 11400000, guid: b987e90897ebace4793d465f10263f67, type: 2}
+    - {fileID: 11400000, guid: a5c4697a0730d314f891032ccb6276d3, type: 2}
+    - {fileID: 11400000, guid: 61bc69e58bd139a49bc5cbc8aa131901, type: 2}
+    - {fileID: 11400000, guid: 21f981dc2cac4884e9675c51730287b0, type: 2}
+    - {fileID: 11400000, guid: e3dd6112ed438e349b10cf3797792c0d, type: 2}
+  - packName: Pack B
+    levelData:
+    - {fileID: 11400000, guid: f7554a120e7938a47afcb751496d3bf0, type: 2}
+    - {fileID: 11400000, guid: 0a911e2ce72f0134ebd86fd62db65238, type: 2}
+    - {fileID: 11400000, guid: 35d0eb78090511847a285bae181e0a68, type: 2}
+    - {fileID: 11400000, guid: 753c262651338354aaf1cfab93470b8c, type: 2}
+    - {fileID: 11400000, guid: 7e5759a327efc934ead4101ae51d496b, type: 2}
+  - packName: Pack C
+    levelData:
+    - {fileID: 11400000, guid: f7554a120e7938a47afcb751496d3bf0, type: 2}
+    - {fileID: 11400000, guid: 0a911e2ce72f0134ebd86fd62db65238, type: 2}
+    - {fileID: 11400000, guid: 35d0eb78090511847a285bae181e0a68, type: 2}
+    - {fileID: 11400000, guid: 753c262651338354aaf1cfab93470b8c, type: 2}
+    - {fileID: 11400000, guid: 7e5759a327efc934ead4101ae51d496b, type: 2}
+  - packName: Pack D
+    levelData:
+    - {fileID: 11400000, guid: f7554a120e7938a47afcb751496d3bf0, type: 2}
+    - {fileID: 11400000, guid: 0a911e2ce72f0134ebd86fd62db65238, type: 2}
+    - {fileID: 11400000, guid: 35d0eb78090511847a285bae181e0a68, type: 2}
+    - {fileID: 11400000, guid: 753c262651338354aaf1cfab93470b8c, type: 2}
+    - {fileID: 11400000, guid: 7e5759a327efc934ead4101ae51d496b, type: 2}
